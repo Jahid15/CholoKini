@@ -1,14 +1,14 @@
 <?php
 include("header.php");
-if(isset($_POST[btnadminlogin]))
+if(isset($_POST['btnadminlogin']))
 {  
 	$sql ="SELECT * FROM employee WHERE login_id='$_POST[email]' AND password='$_POST[password]' AND status='Active'";
 	$qsql = mysqli_query($con,$sql);
 	if(mysqli_num_rows($qsql) == 1)
 	{
 		$rs = mysqli_fetch_array($qsql);
-		$_SESSION[employee_id] = $rs[employee_id];
-		$_SESSION[employee_type] = $rs[employee_type];
+		$_SESSION['employee_id'] = $rs['employee_id'];
+		$_SESSION['employee_type'] = $rs['employee_type'];
 		echo "<script>window.location='employeeaccount.php';</script>";
 	}
 	else
