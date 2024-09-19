@@ -72,7 +72,7 @@
                                         <a href="#"><img src="img/logo/logo_footer.png" alt=""></a>
                                     </div>
                                     <div class="footer-info">
-                                        <p class="phone">+91-9972463499</p>
+                                        <p class="phone">+880 9676-225090</p>
                                     </div>
                                 </div>
                             </div>
