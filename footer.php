@@ -69,7 +69,7 @@
                             <div class="col-lg-4 col-md-12">
                                 <div class="about-us-footer">
                                     <div class="footer-logo">
-                                        <a href="#"><img src="img/logo/logo_footer.png" alt=""></a>
+                                        <a href="#"><img src="img/logo/logo-2.png" alt=""></a>
                                     </div>
                                     <div class="footer-info">
                                         <p class="phone">+880 9676-225090</p>
@@ -127,9 +127,9 @@ if(!isset($_SESSION['customer_id']))
                                                 <h3>Get in touch</h3>
                                             </div>
                                             <div class="block-contact-text">
-                                                <p> E-Auction<br>3rd Floor, Main Gate road, Balmatta, Mangalore.<br>India</p>
-                                                <p>Call us: <span>+91-9972463499 </span></p>
-                                                <p>Email us: <span>contact@onlineauction.com</span></p>
+                                                <p>CholoKini<br>House-16, Road-7, Sector-10, Uttara, Dhaka.<br>Bangladesh</p>
+                                                <p>Call us: <span>+880 9676-225090 </span></p>
+                                                <p>Email us: <span>contact@cholokini.com</span></p>
                                             </div>
                                         </div>
                                     </div>
@@ -142,7 +142,7 @@ if(!isset($_SESSION['customer_id']))
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
-                                <div class="copyright">Copyright &copy; Online Auction. All Rights Reserved</div>
+                                <div class="copyright">Copyright &copy; CholoKini. All Rights Reserved</div>
                             </div>	
                             <div class="col-lg-6 col-md-6">
                                  <div class="payment"><img alt="" src="img/icon/payment.png"></div>
