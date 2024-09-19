@@ -316,7 +316,7 @@ echo mysqli_num_rows($qsql);
                                 <!-- hot-line-area start -->
                                 <div class="hot-line-area">
                                     <div class="phone">
-                                        Customer Support: <span>+91-9972463499 </span>
+                                        Customer Support: <span>+880 9676-225090 </span>
                                     </div>
                                 </div>
                                 <!-- hot-line-area end -->
@@ -355,7 +355,7 @@ if(isset($_SESSION["customer_id"]))
 <span class="item-cart-inner">
 Balance
 </span>
-<div class="item-total">₹<?php echo $accbalamt; ?></div>
+<div class="item-total">৳<?php echo $accbalamt; ?></div>
 </a>
 </li>
 <?php
