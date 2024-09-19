@@ -65,7 +65,7 @@ function countdowntimer(id, time)
 <?php
 			while($rsproduct = mysqli_fetch_array($qsqlproduct))
 			{
-				if (file_exists("imgproduct/".$rsproduct[product_image])) 
+				if (file_exists("imgproduct/".$rsproduct['product_image'])) 
 				{
 					 $imgname = "imgproduct/".$rsproduct['product_image'];
 				} 
