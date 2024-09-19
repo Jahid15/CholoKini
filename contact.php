@@ -58,11 +58,11 @@ include("header.php");
                                 <h2>CONTACT US</h2>
                                 <ul>
                                     <li>
-                                        <i class="fa fa-fax">&nbsp;</i> Address : E-Auction, 3rd Floor, Main Gate road, Balmatta, Mangalore.India</li>
+                                        <i class="fa fa-fax">&nbsp;</i> Address : House-16, Road-7, Sector-10, Uttara, Dhaka, BD</li>
                                     <li>
-                                        <i class="fa fa-phone">&nbsp;</i> contact@onlineauction.com</li>
+                                        <i class="fa fa-phone">&nbsp;</i> contact@cholokini.com</li>
                                     <li>
-                                        <i class="fa fa-envelope-o"></i>&nbsp; +91-9972463499</li>
+                                        <i class="fa fa-envelope-o"></i>&nbsp; +880 9676-225090</li>
                                 </ul>
                             </div>
                         </div>

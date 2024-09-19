@@ -29,10 +29,11 @@ include("header.php");
                         <div class="col-lg-6">
                             <div class="about-info-wrapper">
                                 <h2>Our company</h2>
-<p>OnlineAuction gives an opportunity to those people who can't afford to purchase costly branded products, they can try our risk free auctions to win their desired products like Cars, Bikes, Smartphones, Laptop, Tablets & branded watches.</p>
-<p>Welcome to OnlineAuction, one of the best Indian online auction shopping venues on the Net! This web site is owned and operated by OnlineAuction; successful business persons from west region of India.</p>
-<p>OnlineAuction conducted it's 1st online auction on 1st December 2019. Since then we are proudly India's No-1 Online Auctioneer with 20k+ Registered Members</p>
-<p>OnlineAuction has introduced a completely new and funny way of online shopping. </p>
+<p>Welcome to CholoKini – Bangladesh's First Online Auction Platform!
+
+At CholoKini, we believe in fairness for everyone. Our mission is simple: to help you get the right price for everything. Whether you're selling or buying, CholoKini offers a transparent and competitive marketplace where every item finds its true value. Inspired by global auction platforms, CholoKini connects you with buyers and sellers nationwide, ensuring that each deal is fair and rewarding.
+
+Join CholoKini today – where fairness meets opportunity, and every bid counts!</p>
 
                             </div>
                         </div>
