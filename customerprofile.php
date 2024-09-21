@@ -65,7 +65,7 @@ if(isset($_SESSION['customer_id']))
 	<div class="controls">
 		<label class="control-label">State</label><span  class="errormsg" id="errstate"></span>
 <select  name="state" id="state" class="form-control">
-	<option value="">------------Select State------------</option>
+	<option value="">------------Select District------------</option>
 	<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
 	<option value="Andhra Pradesh">Andhra Pradesh</option>
 	<option value="Arunachal Pradesh">Arunachal Pradesh</option>
@@ -120,8 +120,8 @@ if(isset($_SESSION['customer_id']))
 
 <div class="w3_agileits_card_number_grid_left">
 	<div class="controls">
-		<label class="control-label">PIN code</label><span class="errormsg"  id="errpincode"></span>
-		<input name="pincode" id="pincode" class="form-control" placeholder="Pincode" value="<?php echo $rsedit['pincode']; ?>">
+		<label class="control-label">Post code</label><span class="errormsg"  id="errpincode"></span>
+		<input name="pincode" id="pincode" class="form-control" placeholder="Post Code" value="<?php echo $rsedit['pincode']; ?>">
 	</div>
 </div>
 
@@ -238,12 +238,12 @@ function validatecustomer()
 	}
 	if(!document.getElementById("pincode").value.match(numericExp))
 	{
-		document.getElementById("errpincode").innerHTML = "PIN code should contain digits....";
+		document.getElementById("errpincode").innerHTML = "Post code should contain digits....";
 		errchk = "True";
 	}
 	if(document.getElementById("pincode").value == "")
 	{
-		document.getElementById("errpincode").innerHTML="PIN Code should not be empty..";
+		document.getElementById("errpincode").innerHTML="Post Code should not be empty..";
 		errchk = "True";
 	}
 	/*

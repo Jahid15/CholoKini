@@ -7,7 +7,7 @@ if(isset($_POST['submit']))
 	$paymentid=mysqli_insert_id($con);
 	if(mysqli_affected_rows($con) == 1)
 	{
-		echo "<script>alert('You have deposited Rs. $_POST[paid_amount] successfully...');</script>";
+		echo "<script>alert('You have deposited BDT. $_POST[paid_amount] successfully...');</script>";
 		echo "<SCRIPT>window.location='paymentreceipt.php?paymentid=$paymentid';</SCRIPT>";
 	}
 	else
@@ -44,7 +44,7 @@ if(isset($_GET['editid']))
 			$sql = "SELECT IFNULL(SUM(purchase_amount),0) FROM billing WHERE customer_id='$_SESSION[customer_id]' and status='Active' and payment_type='Deposit'";
 			$qsql = mysqli_query($con,$sql);
 			$rs = mysqli_fetch_array($qsql);
-			echo "Rs. " . $depamt =  $rs[0];
+			echo "BDT. " . $depamt =  $rs[0];
 			?>
 			</td>
 		</tr>
@@ -56,13 +56,13 @@ if(isset($_GET['editid']))
 			$sql = "SELECT IFNULL(SUM(paid_amount),0) FROM payment WHERE customer_id='$_SESSION[customer_id]' and status='Active' and payment_type='Bid'";
 			$qsql = mysqli_query($con,$sql);
 			$rs = mysqli_fetch_array($qsql);
-			echo "Rs. " . $widamt = $rs[0];
+			echo "BDT. " . $widamt = $rs[0];
 			?></td>
 		</tr>
 
 		<tr>
 		    <th>Balance amount</th>
-		    <td>Rs. <?php echo $depamt-$widamt; ?></td>
+		    <td>BDT. <?php echo $depamt-$widamt; ?></td>
 		</tr>
 
 		
