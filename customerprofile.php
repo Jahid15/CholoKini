@@ -63,44 +63,70 @@ if(isset($_SESSION['customer_id']))
 </div>
 <div class="w3_agileits_card_number_grid_left">
 	<div class="controls">
-		<label class="control-label">State</label><span  class="errormsg" id="errstate"></span>
+		<label class="control-label">District</label><span  class="errormsg" id="errstate"></span>
 <select  name="state" id="state" class="form-control">
 	<option value="">------------Select District------------</option>
-	<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
-	<option value="Andhra Pradesh">Andhra Pradesh</option>
-	<option value="Arunachal Pradesh">Arunachal Pradesh</option>
-	<option value="Assam">Assam</option>
-	<option value="Bihar">Bihar</option>
-	<option value="Chandigarh">Chandigarh</option>
-	<option value="Chhattisgarh">Chhattisgarh</option>
-	<option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
-	<option value="Daman and Diu">Daman and Diu</option>
-	<option value="Delhi">Delhi</option>
-	<option value="Goa">Goa</option>
-	<option value="Gujarat">Gujarat</option>
-	<option value="Haryana">Haryana</option>
-	<option value="Himachal Pradesh">Himachal Pradesh</option>
-	<option value="Jammu and Kashmir">Jammu and Kashmir</option>
-	<option value="Jharkhand">Jharkhand</option>
-	<option value="Karnataka">Karnataka</option>
-	<option value="Kerala">Kerala</option>
-	<option value="Lakshadweep">Lakshadweep</option>
-	<option value="Madhya Pradesh">Madhya Pradesh</option>
-	<option value="Maharashtra">Maharashtra</option>
-	<option value="Manipur">Manipur</option>
-	<option value="Meghalaya">Meghalaya</option>
-	<option value="Mizoram">Mizoram</option>
-	<option value="Nagaland">Nagaland</option>
-	<option value="Orissa">Orissa</option>
-	<option value="Pondicherry">Pondicherry</option>
-	<option value="Punjab">Punjab</option>
-	<option value="Rajasthan">Rajasthan</option>
-	<option value="Sikkim">Sikkim</option>
-	<option value="Tamil Nadu">Tamil Nadu</option>
-	<option value="Tripura">Tripura</option>
-	<option value="Uttaranchal">Uttaranchal</option>
-	<option value="Uttar Pradesh">Uttar Pradesh</option>
-	<option value="West Bengal">West Bengal</option>
+	<option value="Dhaka">Dhaka</option>
+<option value="Faridpur">Faridpur</option>
+<option value="Gazipur">Gazipur</option>
+<option value="Gopalganj">Gopalganj</option>
+<option value="Kishoreganj">Kishoreganj</option>
+<option value="Madaripur">Madaripur</option>
+<option value="Manikganj">Manikganj</option>
+<option value="Munshiganj">Munshiganj</option>
+<option value="Narayanganj">Narayanganj</option>
+<option value="Narsingdi">Narsingdi</option>
+<option value="Rajbari">Rajbari</option>
+<option value="Shariatpur">Shariatpur</option>
+<option value="Tangail">Tangail</option>
+<option value="Bogra">Bogra</option>
+<option value="Joypurhat">Joypurhat</option>
+<option value="Naogaon">Naogaon</option>
+<option value="Natore">Natore</option>
+<option value="Chapainawabganj">Chapainawabganj</option>
+<option value="Pabna">Pabna</option>
+<option value="Rajshahi">Rajshahi</option>
+<option value="Sirajganj">Sirajganj</option>
+<option value="Dinajpur">Dinajpur</option>
+<option value="Gaibandha">Gaibandha</option>
+<option value="Kurigram">Kurigram</option>
+<option value="Lalmonirhat">Lalmonirhat</option>
+<option value="Nilphamari">Nilphamari</option>
+<option value="Panchagarh">Panchagarh</option>
+<option value="Rangpur">Rangpur</option>
+<option value="Thakurgaon">Thakurgaon</option>
+<option value="Barguna">Barguna</option>
+<option value="Barisal">Barisal</option>
+<option value="Bhola">Bhola</option>
+<option value="Jhalokathi">Jhalokathi</option>
+<option value="Patuakhali">Patuakhali</option>
+<option value="Pirojpur">Pirojpur</option>
+<option value="Bandarban">Bandarban</option>
+<option value="Brahmanbaria">Brahmanbaria</option>
+<option value="Chandpur">Chandpur</option>
+<option value="Chattogram">Chattogram</option>
+<option value="Cox's Bazar">Cox's Bazar</option>
+<option value="Cumilla">Cumilla</option>
+<option value="Feni">Feni</option>
+<option value="Khagrachari">Khagrachari</option>
+<option value="Lakshmipur">Lakshmipur</option>
+<option value="Noakhali">Noakhali</option>
+<option value="Rangamati">Rangamati</option>
+<option value="Habiganj">Habiganj</option>
+<option value="Moulvibazar">Moulvibazar</option>
+<option value="Sunamganj">Sunamganj</option>
+<option value="Sylhet">Sylhet</option>
+<option value="Bagerhat">Bagerhat</option>
+<option value="Chuadanga">Chuadanga</option>
+<option value="Jashore">Jashore</option>
+<option value="Jhenaidah">Jhenaidah</option>
+<option value="Khulna">Khulna</option>
+<option value="Kushtia">Kushtia</option>
+<option value="Magura">Magura</option>
+<option value="Meherpur">Meherpur</option>
+<option value="Narail">Narail</option>
+<option value="Satkhira">Satkhira</option>
+
 </select>
 	</div>
 </div>
@@ -173,7 +199,7 @@ function validatecustomer()
 	
 	if(document.getElementById("customer_name").value.length > 15)
 	{
-		document.getElementById("errcustomer_name").innerHTML="Customer name not contain less than 15 characters...";
+		document.getElementById("errcustomer_name").innerHTML="Customer name not contain less than 15 charactegit ..";
 		errchk = "True";
 	}
 	if(!document.getElementById("customer_name").value.match(alphaSpaceExp))

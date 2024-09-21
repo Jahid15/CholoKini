@@ -1075,7 +1075,7 @@ body {
 }
 /*-- home-2 slider-style ---*/
 .slider-text-info.style-2 .title1 {
-  color: #ffffff;
+  color: #ff0202;
   display: inline-block;
   font-size: 120px;
   font-weight: 300;
@@ -1093,7 +1093,7 @@ body {
 }
 .slider-text-info.style-2 .slier-btn-1 a,.slider-text-info.style-1.slider-2-style .slier-btn-1 a {
    border: 2px solid #fff;
-  color: #fff;
+  color: #ffffff;
 }
 .slider-text-info.style-2{
   padding: 220px 0;
@@ -1109,7 +1109,7 @@ body {
   padding: 125px 0;
 }
 .slider-text-info.style-4 .title1{
-  color: #fff;
+  color: #ff1515;
 }
 .slider-text-info.style-4  .title2 {
   color: #fff;  

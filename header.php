@@ -426,8 +426,8 @@ if(basename($_SERVER['PHP_SELF']) == "index.php")
 				<div class="row">
 					<div class="col">
 						<div class="slider-text-info style-2 text-center slider-text-animation">
-							<h1 class="title1"><span class="text">Online Auction..</span></h1>
-							<p>India's top rated auction platform..</p>
+							<h1 class="title1"><span class="text">CholoKini</span></h1>
+							<p>Get fair price for Everything</p>
 							<div class="slier-btn-1">
 								<a title="Bid now" href="latestauction.php?auctiontype=Latest%20Auctions" class="shop-btn">View Latest Auctions</a>
 							</div>
@@ -443,8 +443,8 @@ if(basename($_SERVER['PHP_SELF']) == "index.php")
 				<div class="row">
 					<div class="col">
 						<div class="slider-text-info style-2 text-center slider-text-animation">
-							<h1 class="title1"><span class="text">Online Auction.. </span> </h1>
-							<p>India's top rated auction platform..</p>
+							<h1 class="title1"><span class="text">CholoKini </span> </h1>
+							<p>Get fair price for Everything</p>
 							<div class="slier-btn-1">
 								<a title="Bid now" href="featured.php?auctiontype=featured%20Auctions" class="shop-btn">View Featured Auctions</a>
 							</div>
@@ -460,8 +460,8 @@ if(basename($_SERVER['PHP_SELF']) == "index.php")
 				<div class="row">
 					<div class="col">
 						<div class="slider-text-info style-2 text-center slider-text-animation">
-							<h1 class="title1"><span class="text">Online Auction.. </span> </h1>
-							<p>India's top rated auction platform..</p>
+							<h1 class="title1"><span class="text">CholoKini </span> </h1>
+							<p>Get fair price for Everything</p>
 							<div class="slier-btn-1">
 								<a title="Bid now" href="upcominauction.php?auctiontype=Upcoming%20Auctions" class="shop-btn">View Upcoming Auctions</a>
 							</div>
