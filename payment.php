@@ -1,7 +1,7 @@
 <?php
 include("header.php");
 if(isset($_POST['submit']))
-{
+
 	if(isset($_GET['editid']))
 	{
 		//Update statement starts here

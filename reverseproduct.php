@@ -402,7 +402,7 @@ function validateform()
 	}	
 	if(document.getElementById("product_cost").value < 100)
 	{
-		document.getElementById("idproduct_cost").innerHTML ="Product cost should be more than RS.100....";	
+		document.getElementById("idproduct_cost").innerHTML ="Product cost should be more than BDT.100....";	
 		i=1;		
 	}
 	if(document.getElementById("product_cost").value == "")

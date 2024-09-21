@@ -16,7 +16,7 @@ if(isset($_POST['submit']))
 	$paymentid=mysqli_insert_id($con);
 	if(mysqli_affected_rows($con) == 1)
 	{
-		echo "<script>alert('You have paid Rs. $_POST[paid_amount] successfully for winning bid...');</script>";
+		echo "<script>alert('You have paid BDT. $_POST[paid_amount] successfully for winning bid...');</script>";
 		echo "<SCRIPT>window.location='paymentreceiptwinningbid.php?paymentid=$paymentid';</SCRIPT>";
 	}
 	else
@@ -378,7 +378,7 @@ $qsqlproduct = mysqli_query($con,$sqlproduct);
                 <div class="product-content">
                     <span class="product-shipping" style="color: green;"><b>Winner : <?php echo $rsproduct['customer_name']; ?></b></span>
                     <span class="product-shipping" style="color: green;"><b>From : <?php echo $rsproduct['city']; ?></b></span>
-                    <span class="product-shipping" style="color: green;"><b>Amount payable: : Rs. <?php echo $rsproduct['winning_bid']; ?></b></span>
+                    <span class="product-shipping" style="color: green;"><b>Amount payable: : BDT. <?php echo $rsproduct['winning_bid']; ?></b></span>
 
 
                 </div>

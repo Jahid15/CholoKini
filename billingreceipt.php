@@ -58,7 +58,7 @@ $rspayment= mysqli_fetch_array($qsqlpayment);
 		</tr>
 		<tr>
 			<th><b>Paid amount</b></th>
-			<td>Rs. <?php echo $rspayment['purchase_amount']; ?>
+			<td>BDT. <?php echo $rspayment['purchase_amount']; ?>
 			</td>
 		</tr>
 </table>

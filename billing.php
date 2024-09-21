@@ -82,7 +82,7 @@ if(isset($_GET['editid']))
 		<tr>
 		    <th>Charges</th>
 		    <td>
-			Rs. 100
+			BDT. 100
 			</td>
 			</tr>
 	</table>		

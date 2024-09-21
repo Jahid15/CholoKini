@@ -410,7 +410,7 @@ function validateform()
 	}	
 	if(document.getElementById("starting_bid").value < 1)
 	{
-		document.getElementById("idstarting_bid").innerHTML ="Starting bid must be more than a Rs.1....";	
+		document.getElementById("idstarting_bid").innerHTML ="Starting bid must be more than a BDT.1....";	
 		i=1;		
 	}
 	if(document.getElementById("starting_bid").value == "")
@@ -420,7 +420,7 @@ function validateform()
 	}
 	if(document.getElementById("product_cost").value < 100)
 	{
-		document.getElementById("idproduct_cost").innerHTML ="Product cost should be more than RS.100....";	
+		document.getElementById("idproduct_cost").innerHTML ="Product cost should be more than BDT.100....";	
 		i=1;		
 	}
 	

@@ -43,7 +43,7 @@ $rspayment= mysqli_fetch_array($qsqlpayment);
 		</tr>
 			<tr>
 			<th><b>Paid amount</b></th>
-			<td>Rs. <?php echo $rspayment[purchase_amount]; ?>
+			<td>BDT. <?php echo $rspayment[purchase_amount]; ?>
 			</td>
 			</tr>
 		<tr>
@@ -60,13 +60,13 @@ $rspayment= mysqli_fetch_array($qsqlpayment);
 				$qsql = mysqli_query($con,$sql);
 				$rs = mysqli_fetch_array($qsql);
 				$widamt = $rs[0];
-				?>Rs. <?php echo ($depamt)-($widamt+$rspayment[purchase_amount]); ?>
+				?>BDT. <?php echo ($depamt)-($widamt+$rspayment[purchase_amount]); ?>
 		
 		</td>
 		</tr>
 		<tr>
 		<th>Balanced amount</th>
-		<td>Rs. <?php echo ($depamt)-($widamt); ?>
+		<td>BDT. <?php echo ($depamt)-($widamt); ?>
 		</td>
 		</tr>
 </table>

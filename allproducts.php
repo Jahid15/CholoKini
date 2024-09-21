@@ -90,7 +90,7 @@ function countdowntimer(id, time)
 <script type="application/javascript">countdowntimer('<?php echo $rsproduct[0]; ?>', '<?php echo date("M d, Y H:i:s",strtotime($rsproduct['end_date_time'])); ?>');</script>
 <!-- Timer code ends here -->
 											
-											<h4>Current Bid Amount : ₹<?php echo $rsproduct[starting_bid]; ?> </h4>
+											<h4>Current Bid Amount : ৳<?php echo $rsproduct[starting_bid]; ?> </h4>
 										</div>
                                                <div class="snipcart-details">
 												<fieldset>
