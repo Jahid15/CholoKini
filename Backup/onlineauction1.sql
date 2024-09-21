@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 4.7.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 21, 2024 at 07:55 PM
--- Server version: 10.4.32-MariaDB
--- PHP Version: 7.3.2
+-- Generation Time: Aug 27, 2020 at 12:21 PM
+-- Server version: 10.1.26-MariaDB
+-- PHP Version: 7.0.22
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -35,7 +36,7 @@ CREATE TABLE `bidding` (
   `bidding_date_time` datetime NOT NULL,
   `note` text NOT NULL,
   `status` varchar(10) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `bidding`
@@ -72,9 +73,7 @@ INSERT INTO `bidding` (`bidding_id`, `customer_id`, `product_id`, `bidding_amoun
 (3240, 23, 148, 13.00, '2020-03-05 19:04:44', '', 'Active'),
 (3241, 23, 148, 14.00, '2020-03-05 19:04:58', '', 'Active'),
 (3242, 23, 148, 14.00, '2020-03-05 19:05:05', '', 'Active'),
-(3243, 23, 148, 15.00, '2020-03-05 19:05:18', '', 'Active'),
-(3244, 2, 149, 48025.00, '2024-09-21 19:38:44', '', 'Active'),
-(3245, 8, 149, 48050.00, '2024-09-21 20:48:41', '', 'Active');
+(3243, 23, 148, 15.00, '2020-03-05 19:05:18', '', 'Active');
 
 -- --------------------------------------------------------
 
@@ -97,7 +96,7 @@ CREATE TABLE `billing` (
   `delivery_date` date NOT NULL,
   `note` text NOT NULL,
   `status` varchar(10) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `billing`
@@ -126,9 +125,7 @@ INSERT INTO `billing` (`billing_id`, `customer_id`, `product_id`, `purchase_date
 (1345, 9, 0, '2020-03-04', 0.00, 'Deposit', '', '', '0000-00-00', '', '', '0000-00-00', '', 'Active'),
 (1346, 9, 0, '2020-03-04', 0.00, 'Deposit', '', '', '0000-00-00', '', '', '0000-00-00', '', 'Active'),
 (1347, 9, 0, '2020-03-04', 0.00, 'Deposit', '', '', '0000-00-00', '', '', '0000-00-00', '', 'Active'),
-(1348, 23, 0, '2020-03-05', 650.00, 'Deposit', 'Debit Card', '1234567890123456', '2021-01-01', '159', 'Raj kiran', '0000-00-00', '', 'Active'),
-(1349, 25, 149, '2024-09-21', 100.00, 'Sell', 'VISA', '1234123412341234', '2024-12-01', '123', 'Jahid Ibna Sinha', '0000-00-00', '', 'Active'),
-(1350, 25, 0, '2024-09-21', 3248234.00, 'Deposit', 'Credit card', '1234567812345678', '2024-12-01', '123', 'Jahid Ibna Sinha', '0000-00-00', '', 'Active');
+(1348, 23, 0, '2020-03-05', 650.00, 'Deposit', 'Debit Card', '1234567890123456', '2021-01-01', '159', 'Raj kiran', '0000-00-00', '', 'Active');
 
 -- --------------------------------------------------------
 
@@ -142,7 +139,7 @@ CREATE TABLE `category` (
   `category_icon` varchar(100) NOT NULL,
   `description` text NOT NULL,
   `status` varchar(10) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `category`
@@ -175,21 +172,20 @@ CREATE TABLE `customer` (
   `mobile_no` varchar(15) NOT NULL,
   `note` text NOT NULL,
   `status` varchar(10) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `customer`
 --
 
 INSERT INTO `customer` (`customer_id`, `customer_name`, `email_id`, `password`, `address`, `state`, `city`, `landmark`, `pincode`, `mobile_no`, `note`, `status`) VALUES
-(2, 'Sheikh Hasina', 'hasina@gmail.com', '1234567890', 'dfdf', 'Delhi', 'efdefd', 'edfefd', '111111', '7894561230', '', 'Active'),
+(2, 'iiii', 'peter@gmail.com', '123456123456', 'dfdf', 'Karnataka', 'efdefd', 'edfefd', '111111', '7894561230', '', 'Active'),
 (7, 'Aravinda MV', 'rajesh@gmail.com', '123456789', '3rd floor, city light building', 'Karnataka', 'Mangalroe', 'India', '575003', '8217727968', '', 'Active'),
-(8, 'Kader', 'kader@gmail.com', '1234567890', '', '', '', '', '', '+919874563210', '', 'Active'),
+(8, '11', 'buvan@gmail.com', 'q1w2e3r4', '', '', '', '', '', '+919874563210', '', 'Active'),
 (9, 'Hudson A', 'hudson@gmail.com', 'abcdefgabcdefg', '3rd floor, city light', 'Karnataka', 'Mangalore', 'Near KMC Hospital', '575002', '7894561230', '', 'Active'),
 (22, 'Aravinda', 'mvaravinda@gmail.com', '123456789', '', '', '', '', '', '+919874563210', '', 'Active'),
 (23, 'Rajpal', 'rajpal@gmail.com', '123456789', '', '', '', '', '', '+919986055414', '', 'Active'),
-(24, 'Manish', 'manish@gmail.com', '123456789', '3rd floor, city light building', 'Karnataka', 'Mangalroe', 'India', '575003', '8217727968', '', 'Active'),
-(25, 'Jahid Ibna Sinha', 'ibnasinha15@gmail.com', '1234567890', '', '', '', '', '', '01676225090', '', 'Active');
+(24, 'Manish', 'manish@gmail.com', '123456789', '3rd floor, city light building', 'Karnataka', 'Mangalroe', 'India', '575003', '8217727968', '', 'Active');
 
 -- --------------------------------------------------------
 
@@ -204,7 +200,7 @@ CREATE TABLE `employee` (
   `password` varchar(100) NOT NULL,
   `employee_type` varchar(50) NOT NULL,
   `status` varchar(15) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `employee`
@@ -228,7 +224,7 @@ CREATE TABLE `message` (
   `product_id` int(10) NOT NULL,
   `message` text NOT NULL,
   `status` varchar(10) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `message`
@@ -248,11 +244,7 @@ INSERT INTO `message` (`message_id`, `sender_id`, `receiver_id`, `message_date_t
 (33, 24, 9, '2020-03-05 15:19:18', 141, 'Hello\n', 'Customer'),
 (34, 24, 9, '2020-03-05 15:19:31', 141, 'aa\n', 'Customer'),
 (35, 24, 9, '2020-03-05 15:21:01', 141, 'welcome\n', 'Customer'),
-(36, 24, 9, '2020-03-05 19:51:15', 141, 'yesll\n', 'Seller'),
-(37, 2, 25, '2024-09-21 19:38:58', 149, 'hello\n', 'Customer'),
-(38, 2, 25, '2024-09-21 19:39:14', 149, 'i want to buy this phone\n', 'Customer'),
-(39, 2, 25, '2024-09-21 19:39:52', 149, 'yes you can buy it\n', 'Seller'),
-(40, 8, 25, '2024-09-21 20:49:26', 149, 'hello\n', 'Customer');
+(36, 24, 9, '2020-03-05 19:51:15', 141, 'yesll\n', 'Seller');
 
 -- --------------------------------------------------------
 
@@ -269,7 +261,7 @@ CREATE TABLE `payment` (
   `paid_amount` float(10,2) NOT NULL,
   `paid_date` date NOT NULL,
   `status` varchar(10) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `payment`
@@ -306,9 +298,7 @@ INSERT INTO `payment` (`payment_id`, `customer_id`, `payment_type`, `product_id`
 (240, 23, 'Bid', 148, 3240, 18.00, '2020-03-05', 'Active'),
 (241, 23, 'Bid', 148, 3241, 19.00, '2020-03-05', 'Active'),
 (242, 23, 'Bid', 148, 3242, 19.00, '2020-03-05', 'Active'),
-(243, 23, 'Bid', 148, 3243, 20.00, '2020-03-05', 'Active'),
-(244, 2, 'Bid', 149, 3244, 480.25, '2024-09-21', 'Active'),
-(245, 8, 'Bid', 149, 3245, 480.50, '2024-09-21', 'Active');
+(243, 23, 'Bid', 148, 3243, 20.00, '2020-03-05', 'Active');
 
 -- --------------------------------------------------------
 
@@ -332,7 +322,7 @@ CREATE TABLE `product` (
   `product_delivery` text NOT NULL,
   `company_name` varchar(100) NOT NULL,
   `status` varchar(10) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `product`
@@ -349,8 +339,7 @@ INSERT INTO `product` (`product_id`, `customer_id`, `product_name`, `category_id
 (141, 9, 'OnePlus T', 16548, 'Glacier Blue, 8GB RAM, Fluid AMOLED Display, 128GB Storage, 3800mAH Battery', 1.00, 1.00, '2020-03-04 20:42:00', '2020-03-05 20:42:00', 34999.00, '81871ncRs6HzyL._SL1500_.jpg', '', '5-7 days', 'OnePlus', 'Active'),
 (142, 0, 'OnePlus 7T', 16548, 'Glacier Blue, 8GB RAM, Fluid AMOLED Display, 128GB Storage, 3800mAH Battery', 0.00, 0.00, '2020-03-04 21:15:00', '2020-03-05 21:15:00', 35000.00, '866771ncRs6HzyL._SL1500_.jpg', '', '4-5 days', 'Oneplus', 'Active'),
 (143, 0, 'OnePlus 7T', 16548, 'Glacier Blue, 8GB RAM, Fluid AMOLED Display, 128GB Storage, 3800mAH Battery', 0.00, 2.00, '2020-03-04 21:18:00', '2020-03-08 21:18:00', 34999.00, '2162471ncRs6HzyL._SL1500_.jpg', '', '5-7 days', 'OnePlus', 'Active'),
-(148, 0, 'Canon EOS 5D', 16550, 'The Canon EOS 5D Mark IV camera is made for people who take photography seriously. With features, such as the 30.4 MP Full-frame CMOS Sensor, Dual Pixel CMOS AF and 4K Movie Shooting, this camera not only delivers beautiful stills, but it also lets you take incredible videos.', 0.00, 15.00, '2020-03-05 18:18:00', '2020-03-15 18:18:00', 35000.00, '18563canon.jpeg', '', '4-5 days', 'Canon', 'Active'),
-(149, 25, 'iPhone 13 128 GB ', 16548, 'Finish\r\n(PRODUCT)RED\r\n\r\nStarlight\r\n\r\nMidnight\r\n\r\nBlue\r\n\r\nPink\r\n\r\nGreen\r\n\r\nCeramic Shield front, Glass back and aluminum design\r\n\r\nCapacity1\r\n128GB\r\n\r\n256GB\r\n\r\n512GB\r\n\r\nSize and Weight2\r\nWidth: 2.82 inches (71.5 mm)\r\n\r\nHeight: 5.78 inches (146.7 mm)\r\n\r\nDepth: 0.30 inch (7.65 mm)\r\n\r\nWeight: 6.14 ounces (174 grams)\r\n\r\nDisplay\r\nSuper Retina XDR display\r\n\r\n6.1?inch (diagonal) all?screen OLED display\r\n\r\n2532?by?1170-pixel resolution at 460 ppi\r\n\r\nHDR display\r\n\r\nTrue Tone\r\n\r\nWide color (P3)\r\n\r\nHaptic Touch\r\n\r\n2,000,000:1 contrast ratio (typical)\r\n\r\n800 nits max brightness (typical); 1200 nits peak brightness (HDR)\r\n\r\nFingerprint-resistant oleophobic coating\r\n\r\nSupport for display of multiple languages and characters simultaneously\r\n\r\nThe iPhone 13 display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.06 inches diagonally (actual viewable area is less).', 48000.00, 48050.00, '2024-09-21 19:30:00', '2024-09-22 19:30:00', 48000.00, '2038075457iphone 13.jpg', '', '3-4 Days', 'Apple inc', 'Active');
+(148, 0, 'Canon EOS 5D', 16550, 'The Canon EOS 5D Mark IV camera is made for people who take photography seriously. With features, such as the 30.4 MP Full-frame CMOS Sensor, Dual Pixel CMOS AF and 4K Movie Shooting, this camera not only delivers beautiful stills, but it also lets you take incredible videos.', 0.00, 15.00, '2020-03-05 18:18:00', '2020-03-15 18:18:00', 35000.00, '18563canon.jpeg', '', '4-5 days', 'Canon', 'Active');
 
 -- --------------------------------------------------------
 
@@ -366,17 +355,14 @@ CREATE TABLE `winners` (
   `winning_bid` float(10,2) NOT NULL,
   `end_date` date NOT NULL,
   `status` varchar(10) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `winners`
 --
 
 INSERT INTO `winners` (`winner_id`, `product_id`, `customer_id`, `winners_image`, `winning_bid`, `end_date`, `status`) VALUES
-(3, 129, 2, '', 40.00, '2020-02-13', 'Pending'),
-(4, 128, 2, '', 525.00, '2020-02-13', 'Pending'),
-(5, 143, 9, '', 2.00, '2020-03-04', 'Pending'),
-(6, 148, 23, '', 15.00, '2020-03-05', 'Pending');
+(3, 129, 2, '', 40.00, '2020-02-13', 'Pending');
 
 --
 -- Indexes for dumped tables
@@ -444,13 +430,13 @@ ALTER TABLE `winners`
 -- AUTO_INCREMENT for table `bidding`
 --
 ALTER TABLE `bidding`
-  MODIFY `bidding_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3246;
+  MODIFY `bidding_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3244;
 
 --
 -- AUTO_INCREMENT for table `billing`
 --
 ALTER TABLE `billing`
-  MODIFY `billing_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1351;
+  MODIFY `billing_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1349;
 
 --
 -- AUTO_INCREMENT for table `category`
@@ -462,7 +448,7 @@ ALTER TABLE `category`
 -- AUTO_INCREMENT for table `customer`
 --
 ALTER TABLE `customer`
-  MODIFY `customer_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `customer_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT for table `employee`
@@ -474,25 +460,25 @@ ALTER TABLE `employee`
 -- AUTO_INCREMENT for table `message`
 --
 ALTER TABLE `message`
-  MODIFY `message_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
+  MODIFY `message_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
 
 --
 -- AUTO_INCREMENT for table `payment`
 --
 ALTER TABLE `payment`
-  MODIFY `payment_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=246;
+  MODIFY `payment_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=244;
 
 --
 -- AUTO_INCREMENT for table `product`
 --
 ALTER TABLE `product`
-  MODIFY `product_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=150;
+  MODIFY `product_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=149;
 
 --
 -- AUTO_INCREMENT for table `winners`
 --
 ALTER TABLE `winners`
-  MODIFY `winner_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `winner_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
