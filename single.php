@@ -158,7 +158,7 @@ function countdowntimer(id, time)
 											</p>
 
                                             <div class="price-box">
-<p><b>Actual product cost</b> : ₹<?php echo $rsproduct['product_cost']; ?></p> <h4>Current Bid Amount : <br>₹<?php echo $rsproduct['ending_bid']; ?></h4>
+<p><b>Actual product cost</b> : ৳<?php echo $rsproduct['product_cost']; ?></p> <h4>Current Bid Amount : <br>৳<?php echo $rsproduct['ending_bid']; ?></h4>
 
 <input type='hidden' name='max_bid_amt' id='max_bid_amt' value='<?php echo $rsproduct['ending_bid']+25; ?>'>
 
@@ -323,7 +323,7 @@ else
 		$qsqleditbidding = mysqli_query($con,$sqleditbidding);
 		while($rsedit= mysqli_fetch_array($qsqleditbidding))
 		{
-		echo "$rsedit[customer_name] bidded ₹". $rsedit['bidding_amount'] ." on $rsedit[bidding_date_time]<hr>";
+		echo "$rsedit[customer_name] bidded ৳". $rsedit['bidding_amount'] ." on $rsedit[bidding_date_time]<hr>";
 		}
 	?>
 	</p>
@@ -404,7 +404,7 @@ $i=0;
 <script type="application/javascript">countdowntimer('<?php echo $rsproduct[0].$i; ?>', '<?php echo date("M d, Y H:i:s",strtotime($rsproduct['end_date_time'])); ?>');</script>
 <!-- Timer code ends here -->
 				<div class="price-box">
-					<span class="new-price">Current Bid Amount : ₹<?php echo $rsproduct['starting_bid']; ?></span>
+					<span class="new-price">Current Bid Amount : ৳<?php echo $rsproduct['starting_bid']; ?></span>
 					
 					<?php /*<span class="old-price">$250.00</span> */ ?>
 				</div>
@@ -448,12 +448,12 @@ function confirmbidding()
 	}
 	if(parseFloat(document.getElementById("ending_bid").value)  > parseFloat(document.getElementById("purchase_amount").value))
 	{
-		alert('Bidding amount must be greater than ₹' + document.getElementById("ending_bid").value);
+		alert('Bidding amount must be greater than ৳' + document.getElementById("ending_bid").value);
 		return false;
 	}
 	else if(parseFloat(document.getElementById("purchase_amount").value)  > parseFloat(document.getElementById("max_bid_amt").value))
 	{
-		alert('Bidding amount should be lesser than ₹' + document.getElementById("max_bid_amt").value);
+		alert('Bidding amount should be lesser than ৳' + document.getElementById("max_bid_amt").value);
 		return false;
 	}
 	else

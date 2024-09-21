@@ -43,7 +43,7 @@ else
 	$qsqledit = mysqli_query($con,$sqledit);
 	while($rsedit= mysqli_fetch_array($qsqledit))
 	{
-		echo "$rsedit[customer_name] bidded ₹$rsedit[bidding_amount] on $rsedit[bidding_date_time]<hr>";
+		echo "$rsedit[customer_name] bidded ৳$rsedit[bidding_amount] on $rsedit[bidding_date_time]<hr>";
 	}
 ?>
 					</div>
@@ -60,12 +60,12 @@ else
 						<p><b>Product Code :</b> <?php echo $rsproduct[product_id]; ?></p>
 						<p><b>Product warranty :</b> <?php echo $rsproduct[product_warranty]; ?></p>
 						<p><b>Company :</b> <?php echo $rsproduct['company_name']; ?></p>
-						<p><b>Actual product cost</b> ₹<?php echo $rsproduct['product_cost']; ?></p>
+						<p><b>Actual product cost</b> ৳<?php echo $rsproduct['product_cost']; ?></p>
 						</div>	
 					<div class="snipcart-item block">
 						<div class="snipcart-thumb agileinfo_single_right_snipcart">
 							<p><b>Name :</b> <?php echo $rsproduct[customer_name]; ?></p>
-							<p><b>Winning Bid Amount :</b> ₹<?php echo $rsproduct[ending_bid]; ?></p>
+							<p><b>Winning Bid Amount :</b> ৳<?php echo $rsproduct[ending_bid]; ?></p>
 						</div>
 						
 				<div class="snipcart-thumb agileinfo_single_right_snipcart">
@@ -104,7 +104,7 @@ function confirmbidding()
 {
 		if(parseFloat(document.getElementById("ending_bid").value)  > parseFloat(document.getElementById("purchase_amount").value))
 		{
-			alert('Bidding amount must be greater than ₹' + document.getElementById("ending_bid").value);
+			alert('Bidding amount must be greater than ৳' + document.getElementById("ending_bid").value);
 			return false;
 		}
 		else

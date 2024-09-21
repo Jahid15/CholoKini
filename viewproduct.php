@@ -75,7 +75,7 @@ if(isset($_GET['delid']))
 				(<b>Category:</b> $rs[category_name])<br>
 				<b>Company:</b> $rs[company_name]
 				</td>
-				<td>₹$rs[5]</td>
+				<td>৳$rs[5]</td>
 				<td>";
 				if($currentcost == 0)
 				{
@@ -83,10 +83,10 @@ if(isset($_GET['delid']))
 				}
 				else
 				{
-					echo "₹". $rs['ending_bid'];
+					echo "৳". $rs['ending_bid'];
 				}
 				echo "</td><td>". date("d/m/Y h:i A",strtotime($rs['start_date_time'])) . " -".  date("d/m/Y h:i A",strtotime($rs['end_date_time'])) . "</td>
-				<td>₹$rs[product_cost]</td>
+				<td>৳$rs[product_cost]</td>
 				<td>$rs[14]</td>
 				<td><a href='product.php?editid=" . $rs['product_id'] . "'  class='btn btn-warning'>Edit</a> <br> ";
 				if(!isset($_SESSION['customer_id']))

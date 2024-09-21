@@ -35,9 +35,9 @@ include("header.php");
 			    <td>$rs[customer_name]</td>
 				<td>" . date("d-M-Y",strtotime($rs[paid_date])) . "</td>
 				<td>$rs[product_name]</td>
-				<td>₹$rs[bidding_amount]</td>
+				<td>৳$rs[bidding_amount]</td>
 				<td>$rs[payment_type]</td>
-				<td>₹$rs[paid_amount]</td>
+				<td>৳$rs[paid_amount]</td>
 			</tr>";
 		}
 		?>

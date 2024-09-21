@@ -66,10 +66,10 @@ if(isset($_GET['delid']))
 				}
 				else
 				{
-					echo "₹".$currentcost;
+					echo "৳".$currentcost;
 				}
 				echo "</td><td>". date("d/m/Y h:i A",strtotime($rs['start_date_time'])) . " -".  date("d/m/Y h:i A",strtotime($rs['end_date_time'])) . "</td>
-				<td>₹$rs[product_cost]</td>
+				<td>৳$rs[product_cost]</td>
 				<td>$rs[14]</td>
 				<td><a href='product.php?editid=$rs[product_id]'  class='btn btn-warning'>Edit</a> <br> ";
 				

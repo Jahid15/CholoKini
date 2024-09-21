@@ -88,12 +88,12 @@ function countdowntimer(id, time)
 			echo "<tr>
 				<td><img src='imgproduct/$rs[product_image]' width='200px;' ></td>
 				<td>$rscustomer[customer_name]<br>
-				<b>(won for ₹$rsbidding[0])</b>
+				<b>(won for ৳$rsbidding[0])</b>
 				</td>
 				<td>$rs[product_name]<br><font color='red'>[Product category-$rs[category_name]]</font></td>
 			    <td>$rs[customer_name]</td>
-				<td>₹$rs[starting_bid]</td>
-				<td>₹$rs[ending_bid]</td>
+				<td>৳$rs[starting_bid]</td>
+				<td>৳$rs[ending_bid]</td>
 				<td>". date("d/m/Y h:i A",strtotime($rs['start_date_time'])) . " -<br>".  date("d/m/Y h:i A",strtotime($rs['end_date_time'])) ; 
 ?>
 <!-- Timer code starts here -->

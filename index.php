@@ -104,7 +104,7 @@ $i=0;
 <script type="application/javascript">countdowntimer('<?php echo $rsproduct[0].$i; ?>', '<?php echo date("M d, Y H:i:s",strtotime($rsproduct['end_date_time'])); ?>');</script>
 <!-- Timer code ends here -->
 				<div class="price-box">
-					<span class="new-price">Current Bid Amount : ₹<?php 
+					<span class="new-price">Current Bid Amount : ৳<?php 
 					if($rsproduct['ending_bid'] > $rsproduct['starting_bid'])
 					{
 					echo $rsproduct['ending_bid']; 
@@ -219,7 +219,7 @@ $i=0;
 <script type="application/javascript">countdowntimer('<?php echo $rsproduct[0].$i; ?>', '<?php echo date("M d, Y H:i:s",strtotime($rsproduct['end_date_time'])); ?>');</script>
 <!-- Timer code ends here -->
 				<div class="price-box">
-					<span class="new-price">Current Bid Amount : ₹<?php 
+					<span class="new-price">Current Bid Amount : ৳<?php 
 					if($rsproduct['ending_bid'] > $rsproduct['starting_bid'])
 					{
 					echo $rsproduct['ending_bid']; 
@@ -333,7 +333,7 @@ $i=0;
 <script type="application/javascript">countdowntimer('<?php echo $rsproduct[0].$i; ?>', '<?php echo date("M d, Y H:i:s",strtotime($rsproduct['end_date_time'])); ?>');</script>
 <!-- Timer code ends here -->
 				<div class="price-box">
-					<span class="new-price">Current Bid Amount : ₹<?php 
+					<span class="new-price">Current Bid Amount : ৳<?php 
 					if($rsproduct['ending_bid'] > $rsproduct['starting_bid'])
 					{
 					echo $rsproduct['ending_bid']; 
@@ -447,7 +447,7 @@ $i=0;
 <script type="application/javascript">countdowntimer('<?php echo $rsproduct[0].$i; ?>', '<?php echo date("M d, Y H:i:s",strtotime($rsproduct['end_date_time'])); ?>');</script>
 <!-- Timer code ends here -->
 				<div class="price-box">
-					<span class="new-price">Current Bid Amount : ₹<?php 
+					<span class="new-price">Current Bid Amount : ৳<?php 
 					if($rsproduct['ending_bid'] > $rsproduct['starting_bid'])
 					{
 					echo $rsproduct['ending_bid']; 
@@ -561,7 +561,7 @@ $i=0;
 <script type="application/javascript">countdowntimer('<?php echo $rsproduct[0].$i; ?>', '<?php echo date("M d, Y H:i:s",strtotime($rsproduct['end_date_time'])); ?>');</script>
 <!-- Timer code ends here -->
 				<div class="price-box">
-					<span class="new-price">Current Bid Amount : ₹<?php 
+					<span class="new-price">Current Bid Amount : ৳<?php 
 					if($rsproduct['ending_bid'] > $rsproduct['starting_bid'])
 					{
 					echo $rsproduct['ending_bid']; 

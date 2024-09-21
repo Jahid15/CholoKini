@@ -93,7 +93,7 @@ function countdowntimer(id, time)
 		<div class="bottom-wrap">
 				<a href="single.php?productid=<?php echo $rsproduct['product_id']; ?>" class="btn btn-sm btn-primary float-right">Click to Bid</a>	
 				<div class="price-wrap h5">
-					<span class="price-new">Current Bid : ₹<?php 
+					<span class="price-new">Current Bid : ৳<?php 
 					if($rsproduct['ending_bid'] > $rsproduct['starting_bid'])
 					{
 					echo $rsproduct['ending_bid']; 

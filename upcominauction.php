@@ -95,7 +95,7 @@ function countdowntimer(id, time)
 		<div class="bottom-wrap">
 				<a href="single.php?productid=<?php echo $rsproduct['product_id']; ?>" class="btn btn-sm btn-primary float-right">Click to Bid</a>	
 				<div class="price-wrap h5">
-					<span class="price-new">Starting bid : ₹<?php echo $rsproduct['starting_bid']; ?></span> 
+					<span class="price-new">Starting bid : ৳<?php echo $rsproduct['starting_bid']; ?></span> 
 					
 				</div> <!-- price-wrap.// -->
 		</div> <!-- bottom-wrap.// -->

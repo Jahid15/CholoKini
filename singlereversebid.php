@@ -166,10 +166,10 @@ function countdowntimer(id, time)
 											</p>
 
                                             <div class="price-box">
-<p><b>Actual product cost</b> : ₹<?php echo $rsproduct['product_cost']; ?></p>
+<p><b>Actual product cost</b> : ৳<?php echo $rsproduct['product_cost']; ?></p>
 <?php 
 /*
- <h4>Current Bid Amount : <br>₹<?php echo $rsproduct[ending_bid]; ?></h4>
+ <h4>Current Bid Amount : <br>৳<?php echo $rsproduct[ending_bid]; ?></h4>
 */
 ?>
 
@@ -323,7 +323,7 @@ else
 			$qsqleditbidding = mysqli_query($con,$sqleditbidding);
 			while($rsedit= mysqli_fetch_array($qsqleditbidding))
 			{
-			echo $rsedit['bidding_id'] . "-" . $rsedit['customer_name'] . " bidded ₹XXXX on " . date("d-M-Y h:i A",strtotime($rsedit['bidding_date_time'])) ."<hr>";
+			echo $rsedit['bidding_id'] . "-" . $rsedit['customer_name'] . " bidded ৳XXXX on " . date("d-M-Y h:i A",strtotime($rsedit['bidding_date_time'])) ."<hr>";
 			}
 		}
 	?>
@@ -356,7 +356,7 @@ function confirmbidding()
 		}
 		else if(parseFloat(document.getElementById("purchase_amount").value)  > parseFloat(document.getElementById("max_bid_amt").value))
 		{
-			alert('Bidding amount should be lesser than ₹' + document.getElementById("max_bid_amt").value);
+			alert('Bidding amount should be lesser than ৳' + document.getElementById("max_bid_amt").value);
 			return false;
 		}
 		else

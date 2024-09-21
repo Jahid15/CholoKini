@@ -91,7 +91,7 @@ function countdowntimer(id, time)
 											
 											<h4>Starts on <?php echo date("d-M-Y h:i A",strtotime($rsproduct['start_date_time']));?></h4><br>
 											
-											<h4>Starting bid : ₹<?php echo $rsproduct[starting_bid]; ?> </h4>
+											<h4>Starting bid : ৳<?php echo $rsproduct[starting_bid]; ?> </h4>
 										</div>
                                                <div class="snipcart-details">
 												<fieldset>

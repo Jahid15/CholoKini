@@ -101,7 +101,7 @@ function countdowntimer(id, time)
 	$qsqledit = mysqli_query($con,$sqledit);
 	while($rsedit= mysqli_fetch_array($qsqledit))
 	{
-		echo date("d-M-Y",strtotime($rsedit['bidding_date_time'])) .": <br>$rsedit[customer_name] bidded ₹$rsedit[bidding_amount]<hr>";
+		echo date("d-M-Y",strtotime($rsedit['bidding_date_time'])) .": <br>$rsedit[customer_name] bidded ৳$rsedit[bidding_amount]<hr>";
 	}
 ?>	
 					</span> 
