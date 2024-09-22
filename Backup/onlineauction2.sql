@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 22, 2024 at 05:35 AM
+-- Generation Time: Sep 21, 2024 at 07:55 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 7.3.2
 
@@ -42,39 +42,39 @@ CREATE TABLE `bidding` (
 --
 
 INSERT INTO `bidding` (`bidding_id`, `customer_id`, `product_id`, `bidding_amount`, `bidding_date_time`, `note`, `status`) VALUES
-(3213, 123213, 12123, 5550.00, '2024-09-22 09:14:36', 'rfewrf', ''),
-(3214, 7, 128, 450.00, '2024-09-22 09:14:37', '', 'Active'),
-(3215, 9, 128, 475.00, '2024-09-22 09:14:38', '', 'Active'),
-(3216, 2, 129, 26.00, '2024-09-22 09:14:39', '', 'Active'),
-(3217, 2, 129, 30.00, '2024-09-22 09:14:40', '', 'Active'),
-(3218, 2, 128, 500.00, '2024-09-22 09:14:41', '', 'Active'),
-(3219, 2, 128, 525.00, '2024-09-22 09:14:42', '', 'Active'),
-(3220, 2, 129, 40.00, '2024-09-22 09:14:43', '', 'Active'),
-(3221, 2, 143, 10.00, '2024-09-22 09:14:44', '', 'Active'),
-(3222, 2, 143, 12.00, '2024-09-22 09:14:45', '', 'Active'),
-(3223, 2, 143, 1.00, '2024-09-22 09:14:46', '', 'Active'),
-(3224, 9, 143, 1.00, '2024-09-22 09:14:47', '', 'Active'),
-(3225, 9, 143, 2.00, '2024-09-22 09:14:48', '', 'Active'),
-(3226, 23, 148, 10.00, '2024-09-22 09:14:49', '', 'Active'),
-(3227, 23, 148, 20.00, '2024-09-22 09:14:50', '', 'Active'),
-(3228, 23, 148, 10.00, '2024-09-22 09:14:51', '', 'Active'),
-(3229, 23, 148, 10.00, '2024-09-22 09:14:52', '', 'Active'),
-(3230, 23, 148, 10.00, '2024-09-22 09:14:53', '', 'Active'),
-(3231, 23, 148, 10.00, '2024-09-22 09:14:54', '', 'Active'),
-(3232, 23, 148, 10.00, '2024-09-22 09:14:55', '', 'Active'),
-(3233, 23, 148, 10.00, '2024-09-22 09:14:56', '', 'Active'),
-(3234, 23, 148, 10.00, '2024-09-22 09:14:57', '', 'Active'),
-(3235, 23, 148, 10.00, '2024-09-22 09:14:58', '', 'Active'),
-(3236, 23, 148, 10.00, '2024-09-22 09:14:59', '', 'Active'),
-(3237, 23, 148, 11.00, '2024-09-22 09:15:00', '', 'Active'),
-(3238, 23, 148, 12.00, '2024-09-22 09:15:01', '', 'Active'),
-(3239, 23, 148, 13.00, '2024-09-22 09:15:02', '', 'Active'),
-(3240, 23, 148, 13.00, '2024-09-22 09:15:03', '', 'Active'),
-(3241, 23, 148, 14.00, '2024-09-22 09:15:04', '', 'Active'),
-(3242, 23, 148, 14.00, '2024-09-22 09:15:05', '', 'Active'),
-(3243, 23, 148, 15.00, '2024-09-22 09:15:06', '', 'Active'),
-(3244, 2, 149, 48025.00, '2024-09-22 09:15:07', '', 'Active'),
-(3245, 8, 149, 48050.00, '2024-09-22 09:15:08', '', 'Active');
+(3213, 123213, 12123, 5550.00, '2020-01-16 03:08:08', 'rfewrf', ''),
+(3214, 7, 128, 450.00, '2020-02-05 10:59:23', '', 'Active'),
+(3215, 9, 128, 475.00, '2020-02-06 10:59:44', '', 'Active'),
+(3216, 2, 129, 26.00, '2020-02-13 10:46:25', '', 'Active'),
+(3217, 2, 129, 30.00, '2020-02-13 10:46:53', '', 'Active'),
+(3218, 2, 128, 500.00, '2020-02-13 11:00:46', '', 'Active'),
+(3219, 2, 128, 525.00, '2020-02-13 11:01:57', '', 'Active'),
+(3220, 2, 129, 40.00, '2020-02-13 11:02:24', '', 'Active'),
+(3221, 2, 143, 10.00, '2020-03-04 21:43:47', '', 'Active'),
+(3222, 2, 143, 12.00, '2020-03-04 21:44:14', '', 'Active'),
+(3223, 2, 143, 1.00, '2020-03-04 21:51:44', '', 'Active'),
+(3224, 9, 143, 1.00, '2020-03-04 22:50:42', '', 'Active'),
+(3225, 9, 143, 2.00, '2020-03-04 22:50:53', '', 'Active'),
+(3226, 23, 148, 10.00, '2020-03-05 18:54:15', '', 'Active'),
+(3227, 23, 148, 20.00, '2020-03-05 18:57:18', '', 'Active'),
+(3228, 23, 148, 10.00, '2020-03-05 18:57:48', '', 'Active'),
+(3229, 23, 148, 10.00, '2020-03-05 18:58:07', '', 'Active'),
+(3230, 23, 148, 10.00, '2020-03-05 18:58:12', '', 'Active'),
+(3231, 23, 148, 10.00, '2020-03-05 18:58:44', '', 'Active'),
+(3232, 23, 148, 10.00, '2020-03-05 18:59:00', '', 'Active'),
+(3233, 23, 148, 10.00, '2020-03-05 18:59:15', '', 'Active'),
+(3234, 23, 148, 10.00, '2020-03-05 18:59:52', '', 'Active'),
+(3235, 23, 148, 10.00, '2020-03-05 19:00:25', '', 'Active'),
+(3236, 23, 148, 10.00, '2020-03-05 19:02:07', '', 'Active'),
+(3237, 23, 148, 11.00, '2020-03-05 19:02:22', '', 'Active'),
+(3238, 23, 148, 12.00, '2020-03-05 19:02:31', '', 'Active'),
+(3239, 23, 148, 13.00, '2020-03-05 19:04:00', '', 'Active'),
+(3240, 23, 148, 13.00, '2020-03-05 19:04:44', '', 'Active'),
+(3241, 23, 148, 14.00, '2020-03-05 19:04:58', '', 'Active'),
+(3242, 23, 148, 14.00, '2020-03-05 19:05:05', '', 'Active'),
+(3243, 23, 148, 15.00, '2020-03-05 19:05:18', '', 'Active'),
+(3244, 2, 149, 48025.00, '2024-09-21 19:38:44', '', 'Active'),
+(3245, 8, 149, 48050.00, '2024-09-21 20:48:41', '', 'Active');
 
 -- --------------------------------------------------------
 
@@ -104,31 +104,31 @@ CREATE TABLE `billing` (
 --
 
 INSERT INTO `billing` (`billing_id`, `customer_id`, `product_id`, `purchase_date`, `purchase_amount`, `payment_type`, `card_type`, `card_number`, `expire_date`, `cvv_number`, `card_holder`, `delivery_date`, `note`, `status`) VALUES
-(1326, 321, 231, '2024-09-22', 500.00, '12323', '3123', '545454545', '2026-09-22', '545', '5454545', '2020-01-20', '213213213', ''),
-(1327, 0, 125, '2024-09-22', 100.00, 'Sell', 'Debit Card', '1234567890123456', '2026-09-22', '545', 'yjut', '0000-00-00', '', 'Active'),
-(1328, 0, 126, '2024-09-22', 100.00, 'Sell', 'VISA', '1987654321234567', '2026-09-22', '543', 'Rajkiran', '0000-00-00', '', 'Active'),
-(1329, 8, 0, '2024-09-22', 500.00, 'Deposit', 'Credit card', '1234567890123456', '2026-09-22', '564', 'Raj kiran', '0000-00-00', '', 'Active'),
-(1330, 0, 127, '2024-09-22', 100.00, 'Sell', 'Debit Card', '1234567890123456', '2026-09-22', '433', 'Rajkiran', '0000-00-00', '', 'Active'),
-(1331, 0, 128, '2024-09-22', 100.00, 'Sell', 'Debit Card', '1234567890123456', '2026-09-22', '237', 'Rajkiran', '0000-00-00', '', 'Active'),
-(1332, 7, 0, '2024-09-22', 650.00, 'Deposit', 'Credit card', '9876543212346789', '2026-09-22', '237', 'karan', '0000-00-00', '', 'Active'),
-(1333, 0, 129, '2024-09-22', 100.00, 'Sell', 'Debit Card', '7894561230123456', '2026-09-22', '433', 'Raj', '0000-00-00', '', 'Active'),
-(1334, 9, 0, '2024-09-22', 300.00, 'Deposit', 'Debit Card', '1234567890123456', '2026-09-22', '453', 'Raj', '0000-00-00', '', 'Active'),
-(1335, 2, 0, '2024-09-22', 650.00, 'Deposit', 'Credit card', '1234567891012345', '2026-09-22', '458', 'Raj kiran', '0000-00-00', '', 'Active'),
-(1336, 0, 136, '2024-09-22', 100.00, 'Sell', 'Credit card', '1233213213213134', '2026-09-22', '443', 'da', '0000-00-00', '', 'Active'),
-(1337, 9, 0, '2024-09-22', 250.00, 'Deposit', 'Debit Card', '1234567890123456', '2026-09-22', '548', 'Raj kiran', '0000-00-00', '', 'Active'),
-(1338, 2, 0, '2024-09-22', 100.00, 'Deposit', '', '', '2026-09-22', '', '', '0000-00-00', '', 'Active'),
-(1339, 0, 138, '2024-09-22', 100.00, 'Sell', 'Master Card', '1234567890123456', '2026-09-22', '456', 'raj kiran', '0000-00-00', '', 'Active'),
-(1340, 2, 0, '2024-09-22', 0.00, 'Deposit', '', '', '2026-09-22', '', '', '0000-00-00', '', 'Active'),
-(1341, 0, 140, '2024-09-22', 100.00, 'Sell', 'Debit Card', '1234567890123456', '2026-09-22', '489', 'Raj kiran', '0000-00-00', '', 'Active'),
-(1342, 9, 141, '2024-09-22', 100.00, 'Sell', 'Debit Card', '1234567890123456', '2026-09-22', '125', 'Raj kiran', '0000-00-00', '', 'Active'),
-(1343, 0, 142, '2024-09-22', 100.00, 'Sell', 'Debit Card', '1234567890123456', '2026-09-22', '486', 'Raj kiran', '0000-00-00', '', 'Active'),
-(1344, 9, 0, '2024-09-22', 0.00, 'Deposit', '', '', '2026-09-22', '', '', '0000-00-00', '', 'Active'),
-(1345, 9, 0, '2024-09-22', 0.00, 'Deposit', '', '', '2026-09-22', '', '', '0000-00-00', '', 'Active'),
-(1346, 9, 0, '2024-09-22', 0.00, 'Deposit', '', '', '2026-09-22', '', '', '0000-00-00', '', 'Active'),
-(1347, 9, 0, '2024-09-22', 0.00, 'Deposit', '', '', '2026-09-22', '', '', '0000-00-00', '', 'Active'),
-(1348, 23, 0, '2024-09-22', 650.00, 'Deposit', 'Debit Card', '1234567890123456', '2026-09-22', '159', 'Raj kiran', '0000-00-00', '', 'Active'),
-(1349, 25, 149, '2024-09-22', 100.00, 'Sell', 'VISA', '1234123412341234', '2026-09-22', '123', 'Jahid Ibna Sinha', '0000-00-00', '', 'Active'),
-(1350, 25, 0, '2024-09-22', 3248234.00, 'Deposit', 'Credit card', '1234567812345678', '2026-09-22', '123', 'Jahid Ibna Sinha', '0000-00-00', '', 'Active');
+(1326, 321, 231, '2020-01-11', 500.00, '12323', '3123', '545454545', '2020-01-13', '545', '5454545', '2020-01-20', '213213213', ''),
+(1327, 0, 125, '2020-02-05', 100.00, 'Sell', 'Debit Card', '1234567890123456', '2021-01-01', '545', 'yjut', '0000-00-00', '', 'Active'),
+(1328, 0, 126, '2020-02-05', 100.00, 'Sell', 'VISA', '1987654321234567', '2020-03-01', '543', 'Rajkiran', '0000-00-00', '', 'Active'),
+(1329, 8, 0, '2020-02-05', 500.00, 'Deposit', 'Credit card', '1234567890123456', '2020-02-01', '564', 'Raj kiran', '0000-00-00', '', 'Active'),
+(1330, 0, 127, '2020-02-05', 100.00, 'Sell', 'Debit Card', '1234567890123456', '2021-01-01', '433', 'Rajkiran', '0000-00-00', '', 'Active'),
+(1331, 0, 128, '2020-02-05', 100.00, 'Sell', 'Debit Card', '1234567890123456', '2021-01-01', '237', 'Rajkiran', '0000-00-00', '', 'Active'),
+(1332, 7, 0, '2020-02-05', 650.00, 'Deposit', 'Credit card', '9876543212346789', '2021-12-01', '237', 'karan', '0000-00-00', '', 'Active'),
+(1333, 0, 129, '2020-02-06', 100.00, 'Sell', 'Debit Card', '7894561230123456', '2020-03-01', '433', 'Raj', '0000-00-00', '', 'Active'),
+(1334, 9, 0, '2020-02-06', 300.00, 'Deposit', 'Debit Card', '1234567890123456', '2020-03-01', '453', 'Raj', '0000-00-00', '', 'Active'),
+(1335, 2, 0, '2020-02-13', 650.00, 'Deposit', 'Credit card', '1234567891012345', '2021-01-01', '458', 'Raj kiran', '0000-00-00', '', 'Active'),
+(1336, 0, 136, '2020-02-13', 100.00, 'Sell', 'Credit card', '1233213213213134', '2044-03-01', '443', 'da', '0000-00-00', '', 'Active'),
+(1337, 9, 0, '2020-03-04', 250.00, 'Deposit', 'Debit Card', '1234567890123456', '2021-01-01', '548', 'Raj kiran', '0000-00-00', '', 'Active'),
+(1338, 2, 0, '2020-03-04', 100.00, 'Deposit', '', '', '0000-00-00', '', '', '0000-00-00', '', 'Active'),
+(1339, 0, 138, '2020-03-04', 100.00, 'Sell', 'Master Card', '1234567890123456', '2021-01-01', '456', 'raj kiran', '0000-00-00', '', 'Active'),
+(1340, 2, 0, '2020-03-04', 0.00, 'Deposit', '', '', '0000-00-00', '', '', '0000-00-00', '', 'Active'),
+(1341, 0, 140, '2020-03-04', 100.00, 'Sell', 'Debit Card', '1234567890123456', '2021-01-01', '489', 'Raj kiran', '0000-00-00', '', 'Active'),
+(1342, 9, 141, '2020-03-04', 100.00, 'Sell', 'Debit Card', '1234567890123456', '2022-01-01', '125', 'Raj kiran', '0000-00-00', '', 'Active'),
+(1343, 0, 142, '2020-03-04', 100.00, 'Sell', 'Debit Card', '1234567890123456', '2021-01-01', '486', 'Raj kiran', '0000-00-00', '', 'Active'),
+(1344, 9, 0, '2020-03-04', 0.00, 'Deposit', '', '', '0000-00-00', '', '', '0000-00-00', '', 'Active'),
+(1345, 9, 0, '2020-03-04', 0.00, 'Deposit', '', '', '0000-00-00', '', '', '0000-00-00', '', 'Active'),
+(1346, 9, 0, '2020-03-04', 0.00, 'Deposit', '', '', '0000-00-00', '', '', '0000-00-00', '', 'Active'),
+(1347, 9, 0, '2020-03-04', 0.00, 'Deposit', '', '', '0000-00-00', '', '', '0000-00-00', '', 'Active'),
+(1348, 23, 0, '2020-03-05', 650.00, 'Deposit', 'Debit Card', '1234567890123456', '2021-01-01', '159', 'Raj kiran', '0000-00-00', '', 'Active'),
+(1349, 25, 149, '2024-09-21', 100.00, 'Sell', 'VISA', '1234123412341234', '2024-12-01', '123', 'Jahid Ibna Sinha', '0000-00-00', '', 'Active'),
+(1350, 25, 0, '2024-09-21', 3248234.00, 'Deposit', 'Credit card', '1234567812345678', '2024-12-01', '123', 'Jahid Ibna Sinha', '0000-00-00', '', 'Active');
 
 -- --------------------------------------------------------
 
@@ -182,15 +182,14 @@ CREATE TABLE `customer` (
 --
 
 INSERT INTO `customer` (`customer_id`, `customer_name`, `email_id`, `password`, `address`, `state`, `city`, `landmark`, `pincode`, `mobile_no`, `note`, `status`) VALUES
-(2, 'Sheikh Hasina', 'hasina@gmail.com', '1234567890', 'dfdf', 'Delhi', 'efdefd', 'chapra moshjid', '1237', '1234567891', '', 'Active'),
-(7, 'Younus', 'Younus@gmail.com', '123456789', '3rd floor, city light building', 'Dhaka', 'sdkjfjdsf', 'fasdfasd', '1238', '1234567892', '', 'Active'),
-(8, 'Kader', 'kader@gmail.com', '1234567890', '', '', '', '', '1239', '1234567893', '', 'Active'),
-(9, 'Hudson', 'hudson@gmail.com', '1234567890', '3rd floor, city light', 'Dhaka', 'Dhaka', 'Near KMC Hospital', '1240', '1234567894', '', 'Active'),
-(22, 'Aravinda', 'mvaravinda@gmail.com', '123456789', '', '', '', '', '1241', '1234567895', '', 'Active'),
-(23, 'Rajpal', 'rajpal@gmail.com', '123456789', '', '', '', '', '1242', '1234567896', '', 'Active'),
-(24, 'fokrul', 'fokrul@gmail.com', '123456789', 'press club', 'Dhaka', 'sfdf', 'fsdfs', '1243', '1234567897', '', 'Active'),
-(25, 'Jahid Ibna Sinha', 'ibnasinha15@gmail.com', '1234567890', '', '', '', '', '1244', '1234567898', '', 'Active'),
-(26, 'kakashi hatake', 'kakashi@gmail.com', '1234567890', '', '', '', '', '1245', '1234567899', '', 'Active');
+(2, 'Sheikh Hasina', 'hasina@gmail.com', '1234567890', 'dfdf', 'Delhi', 'efdefd', 'edfefd', '111111', '7894561230', '', 'Active'),
+(7, 'Aravinda MV', 'rajesh@gmail.com', '123456789', '3rd floor, city light building', 'Karnataka', 'Mangalroe', 'India', '575003', '8217727968', '', 'Active'),
+(8, 'Kader', 'kader@gmail.com', '1234567890', '', '', '', '', '', '+919874563210', '', 'Active'),
+(9, 'Hudson A', 'hudson@gmail.com', 'abcdefgabcdefg', '3rd floor, city light', 'Karnataka', 'Mangalore', 'Near KMC Hospital', '575002', '7894561230', '', 'Active'),
+(22, 'Aravinda', 'mvaravinda@gmail.com', '123456789', '', '', '', '', '', '+919874563210', '', 'Active'),
+(23, 'Rajpal', 'rajpal@gmail.com', '123456789', '', '', '', '', '', '+919986055414', '', 'Active'),
+(24, 'Manish', 'manish@gmail.com', '123456789', '3rd floor, city light building', 'Karnataka', 'Mangalroe', 'India', '575003', '8217727968', '', 'Active'),
+(25, 'Jahid Ibna Sinha', 'ibnasinha15@gmail.com', '1234567890', '', '', '', '', '', '01676225090', '', 'Active');
 
 -- --------------------------------------------------------
 
@@ -340,18 +339,18 @@ CREATE TABLE `product` (
 --
 
 INSERT INTO `product` (`product_id`, `customer_id`, `product_name`, `category_id`, `product_description`, `starting_bid`, `ending_bid`, `start_date_time`, `end_date_time`, `product_cost`, `product_image`, `product_warranty`, `product_delivery`, `company_name`, `status`) VALUES
-(126, 7, 'Xiaomi Redmi Note 8', 16548, 'Xiaomi Redmi Note 8 is a mid-range that can impress the buyers with its stylish design. The device offers no bezels except for a thin chin. It offers an amazing viewing experience that knows no boundary. It also delivers stellar performance with the strong internal hardware along with long-hour battery backup coupled with Fast Charging technology.', 100.00, 0.00, '2024-09-22 08:52:40', '2024-09-23 08:52:40', 10000.00, '2020024625xiaomi-redmi-note-8.jpg', '1', 'Excellent camerasGreat performanceGood battery backupFast Charging suppor', 'Xiami', 'Active'),
-(127, 8, 'Lenovo Ideapad S145 8th Gen', 16549, 'Operating System: Pre-loaded Windows 10 Home with lifetime validity and Microsoft Office 2019\r\nDisplay: 15.6-inch screen with (1920X1080) full HD display | Anti Glare technology\r\nMemory and Storage: 4 GB RAM | Storage 256 GB SSD\r\nDesign and battery: Thin and light Laptop| 180 Degree Hinge| Laptop weight 1.85kg | Battery Life: Upto 5.5 hours as per MobileMark\r\nThis genuine Lenovo Laptop comes with 1 year onsite domestic warranty from Lenovo covering manufacturing defects and not covering physical damage. For more details, see Warranty section\r\nInside the box: Laptop, Charger, User Manual | With Microsoft Office 2019\r\nPorts and Optical Drive: 1 HDMI, 2 USB 3.0, USB 2.0 |4-in-1 card reader (SD,SDHC,SDXC,MMC)|Combo audio and microphone jack |No Optical Drive', 1.00, 1.00, '2024-09-22 08:52:40', '2024-09-23 08:52:40', 10000.00, '1160091601laptop.jpg', '1', 'Delivery in 7 - 8 days', 'Lenovo', 'Active'),
-(128, 8, 'Canon EOS R Mirrorless Digital Camera', 16550, 'The first step in Canon\'s mirrorless evolution, the EOS R pairs a redeveloped lens mount and updated full-frame image sensor for a unique and sophisticated multimedia camera system. Revolving around the new RF lens mount, the EOS R is poised to be the means from which to make the most of a new series of lenses and optical technologies.', 1.00, 525.00, '2024-09-22 08:52:40', '2024-09-23 08:52:40', 50000.00, '1249798823Camera.jpg', 'Mangalore', 'test', 'aishu', 'Active'),
-(129, 9, 'Redmi Note 7S', 16548, 'With its 13 MP AI front camera, the Redmi Note 7S takes your selfie game to the next level, allowing you to click gorgeous and Instagram-worthy pictures effortlessly.', 25.00, 40.00, '2024-09-22 08:52:40', '2024-09-23 08:52:40', 8999.00, '19660redmi note7.jpeg', '1 year', '3 Days', 'Redmi', 'Active'),
-(138, 2, 'acerlaptoplapyto', 16549, 'this is lap', 100.00, 100.00, '2024-09-22 08:52:40', '2024-09-23 08:52:40', 25000.00, '143159a749921556e059f5680ffc7ea8f145.jpeg', '', '3-4 Days', 'acer', 'Active'),
-(139, 2, 'aaaaaaaaaaaaaaaaaaaa', 16549, 'asasasasas', 100.00, 100.00, '2024-09-22 08:52:40', '2024-09-23 08:52:40', 25000.00, '22368cia-new-poster-759.jpeg', '', '4-5 days', 'lpo', 'Pending'),
-(140, 9, 'OnePlus', 16548, '48+12+16MP triple rear camera with telephoto lens + ultrawide angle lens | 16MP front camera with 4K video capture @ 30/60 FPS, ultrashot, nightscape, portrait, pro mode, panorama, HDR, AI scene detection, RAW image', 1.00, 1.00, '2024-09-22 08:52:40', '2024-09-23 08:52:40', 35000.00, '2969771ncRs6HzyL._SL1500_.jpg', '', '4-5 days', 'One Plus', 'Active'),
-(141, 9, 'OnePlus T', 16548, 'Glacier Blue, 8GB RAM, Fluid AMOLED Display, 128GB Storage, 3800mAH Battery', 1.00, 1.00, '2024-09-22 08:52:40', '2024-09-23 08:52:40', 34999.00, '81871ncRs6HzyL._SL1500_.jpg', '', '5-7 days', 'OnePlus', 'Active'),
-(142, 0, 'OnePlus 7T', 16548, 'Glacier Blue, 8GB RAM, Fluid AMOLED Display, 128GB Storage, 3800mAH Battery', 0.00, 0.00, '2024-09-22 08:52:40', '2024-09-23 08:52:40', 35000.00, '866771ncRs6HzyL._SL1500_.jpg', '', '4-5 days', 'Oneplus', 'Active'),
-(143, 0, 'OnePlus 7T', 16548, 'Glacier Blue, 8GB RAM, Fluid AMOLED Display, 128GB Storage, 3800mAH Battery', 0.00, 2.00, '2024-09-22 08:52:40', '2024-09-23 08:52:40', 34999.00, '2162471ncRs6HzyL._SL1500_.jpg', '', '5-7 days', 'OnePlus', 'Active'),
-(148, 0, 'Canon EOS 5D', 16550, 'The Canon EOS 5D Mark IV camera is made for people who take photography seriously. With features, such as the 30.4 MP Full-frame CMOS Sensor, Dual Pixel CMOS AF and 4K Movie Shooting, this camera not only delivers beautiful stills, but it also lets you take incredible videos.', 0.00, 15.00, '2024-09-22 08:52:40', '2024-09-23 08:52:40', 35000.00, '18563canon.jpeg', '', '4-5 days', 'Canon', 'Active'),
-(149, 25, 'iPhone 13 128 GB ', 16548, 'Finish\r\n(PRODUCT)RED\r\n\r\nStarlight\r\n\r\nMidnight\r\n\r\nBlue\r\n\r\nPink\r\n\r\nGreen\r\n\r\nCeramic Shield front, Glass back and aluminum design\r\n\r\nCapacity1\r\n128GB\r\n\r\n256GB\r\n\r\n512GB\r\n\r\nSize and Weight2\r\nWidth: 2.82 inches (71.5 mm)\r\n\r\nHeight: 5.78 inches (146.7 mm)\r\n\r\nDepth: 0.30 inch (7.65 mm)\r\n\r\nWeight: 6.14 ounces (174 grams)\r\n\r\nDisplay\r\nSuper Retina XDR display\r\n\r\n6.1?inch (diagonal) all?screen OLED display\r\n\r\n2532?by?1170-pixel resolution at 460 ppi\r\n\r\nHDR display\r\n\r\nTrue Tone\r\n\r\nWide color (P3)\r\n\r\nHaptic Touch\r\n\r\n2,000,000:1 contrast ratio (typical)\r\n\r\n800 nits max brightness (typical); 1200 nits peak brightness (HDR)\r\n\r\nFingerprint-resistant oleophobic coating\r\n\r\nSupport for display of multiple languages and characters simultaneously\r\n\r\nThe iPhone 13 display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.06 inches diagonally (actual viewable area is less).', 48000.00, 48050.00, '2024-09-22 08:52:40', '2024-09-23 08:52:40', 48000.00, '2038075457iphone 13.jpg', '', '3-4 Days', 'Apple inc', 'Active');
+(126, 7, 'Xiaomi Redmi Note 8', 16548, 'Xiaomi Redmi Note 8 is a mid-range that can impress the buyers with its stylish design. The device offers no bezels except for a thin chin. It offers an amazing viewing experience that knows no boundary. It also delivers stellar performance with the strong internal hardware along with long-hour battery backup coupled with Fast Charging technology.', 100.00, 0.00, '2020-02-05 10:18:00', '2020-02-08 05:30:00', 10000.00, '2020024625xiaomi-redmi-note-8.jpg', '1', 'Excellent camerasGreat performanceGood battery backupFast Charging suppor', 'Xiami', 'Active'),
+(127, 8, 'Lenovo Ideapad S145 8th Gen', 16549, 'Operating System: Pre-loaded Windows 10 Home with lifetime validity and Microsoft Office 2019\r\nDisplay: 15.6-inch screen with (1920X1080) full HD display | Anti Glare technology\r\nMemory and Storage: 4 GB RAM | Storage 256 GB SSD\r\nDesign and battery: Thin and light Laptop| 180 Degree Hinge| Laptop weight 1.85kg | Battery Life: Upto 5.5 hours as per MobileMark\r\nThis genuine Lenovo Laptop comes with 1 year onsite domestic warranty from Lenovo covering manufacturing defects and not covering physical damage. For more details, see Warranty section\r\nInside the box: Laptop, Charger, User Manual | With Microsoft Office 2019\r\nPorts and Optical Drive: 1 HDMI, 2 USB 3.0, USB 2.0 |4-in-1 card reader (SD,SDHC,SDXC,MMC)|Combo audio and microphone jack |No Optical Drive', 1.00, 1.00, '2020-02-05 10:51:46', '2020-02-07 05:30:00', 10000.00, '1160091601laptop.jpg', '1', 'Delivery in 7 - 8 days', 'Lenovo', 'Active'),
+(128, 8, 'Canon EOS R Mirrorless Digital Camera', 16550, 'The first step in Canon\'s mirrorless evolution, the EOS R pairs a redeveloped lens mount and updated full-frame image sensor for a unique and sophisticated multimedia camera system. Revolving around the new RF lens mount, the EOS R is poised to be the means from which to make the most of a new series of lenses and optical technologies.', 1.00, 525.00, '2020-02-05 10:55:36', '2021-02-05 05:30:00', 50000.00, '1249798823Camera.jpg', 'Mangalore', 'test', 'aishu', 'Active'),
+(129, 9, 'Redmi Note 7S', 16548, 'With its 13 MP AI front camera, the Redmi Note 7S takes your selfie game to the next level, allowing you to click gorgeous and Instagram-worthy pictures effortlessly.', 25.00, 40.00, '2020-02-06 10:53:42', '2020-02-29 05:30:00', 8999.00, '19660redmi note7.jpeg', '1 year', '3 Days', 'Redmi', 'Active'),
+(138, 2, 'acerlaptoplapyto', 16549, 'this is lap', 100.00, 100.00, '2020-03-04 10:05:05', '2020-03-04 05:30:00', 25000.00, '143159a749921556e059f5680ffc7ea8f145.jpeg', '', '3-4 Days', 'acer', 'Active'),
+(139, 2, 'aaaaaaaaaaaaaaaaaaaa', 16549, 'asasasasas', 100.00, 100.00, '2020-03-04 10:18:21', '2020-03-04 05:30:00', 25000.00, '22368cia-new-poster-759.jpeg', '', '4-5 days', 'lpo', 'Pending'),
+(140, 9, 'OnePlus', 16548, '48+12+16MP triple rear camera with telephoto lens + ultrawide angle lens | 16MP front camera with 4K video capture @ 30/60 FPS, ultrashot, nightscape, portrait, pro mode, panorama, HDR, AI scene detection, RAW image', 1.00, 1.00, '2020-03-04 20:34:00', '2020-03-05 20:34:00', 35000.00, '2969771ncRs6HzyL._SL1500_.jpg', '', '4-5 days', 'One Plus', 'Active'),
+(141, 9, 'OnePlus T', 16548, 'Glacier Blue, 8GB RAM, Fluid AMOLED Display, 128GB Storage, 3800mAH Battery', 1.00, 1.00, '2020-03-04 20:42:00', '2020-03-05 20:42:00', 34999.00, '81871ncRs6HzyL._SL1500_.jpg', '', '5-7 days', 'OnePlus', 'Active'),
+(142, 0, 'OnePlus 7T', 16548, 'Glacier Blue, 8GB RAM, Fluid AMOLED Display, 128GB Storage, 3800mAH Battery', 0.00, 0.00, '2020-03-04 21:15:00', '2020-03-05 21:15:00', 35000.00, '866771ncRs6HzyL._SL1500_.jpg', '', '4-5 days', 'Oneplus', 'Active'),
+(143, 0, 'OnePlus 7T', 16548, 'Glacier Blue, 8GB RAM, Fluid AMOLED Display, 128GB Storage, 3800mAH Battery', 0.00, 2.00, '2020-03-04 21:18:00', '2020-03-08 21:18:00', 34999.00, '2162471ncRs6HzyL._SL1500_.jpg', '', '5-7 days', 'OnePlus', 'Active'),
+(148, 0, 'Canon EOS 5D', 16550, 'The Canon EOS 5D Mark IV camera is made for people who take photography seriously. With features, such as the 30.4 MP Full-frame CMOS Sensor, Dual Pixel CMOS AF and 4K Movie Shooting, this camera not only delivers beautiful stills, but it also lets you take incredible videos.', 0.00, 15.00, '2020-03-05 18:18:00', '2020-03-15 18:18:00', 35000.00, '18563canon.jpeg', '', '4-5 days', 'Canon', 'Active'),
+(149, 25, 'iPhone 13 128 GB ', 16548, 'Finish\r\n(PRODUCT)RED\r\n\r\nStarlight\r\n\r\nMidnight\r\n\r\nBlue\r\n\r\nPink\r\n\r\nGreen\r\n\r\nCeramic Shield front, Glass back and aluminum design\r\n\r\nCapacity1\r\n128GB\r\n\r\n256GB\r\n\r\n512GB\r\n\r\nSize and Weight2\r\nWidth: 2.82 inches (71.5 mm)\r\n\r\nHeight: 5.78 inches (146.7 mm)\r\n\r\nDepth: 0.30 inch (7.65 mm)\r\n\r\nWeight: 6.14 ounces (174 grams)\r\n\r\nDisplay\r\nSuper Retina XDR display\r\n\r\n6.1?inch (diagonal) all?screen OLED display\r\n\r\n2532?by?1170-pixel resolution at 460 ppi\r\n\r\nHDR display\r\n\r\nTrue Tone\r\n\r\nWide color (P3)\r\n\r\nHaptic Touch\r\n\r\n2,000,000:1 contrast ratio (typical)\r\n\r\n800 nits max brightness (typical); 1200 nits peak brightness (HDR)\r\n\r\nFingerprint-resistant oleophobic coating\r\n\r\nSupport for display of multiple languages and characters simultaneously\r\n\r\nThe iPhone 13 display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.06 inches diagonally (actual viewable area is less).', 48000.00, 48050.00, '2024-09-21 19:30:00', '2024-09-22 19:30:00', 48000.00, '2038075457iphone 13.jpg', '', '3-4 Days', 'Apple inc', 'Active');
 
 -- --------------------------------------------------------
 
@@ -377,8 +376,7 @@ INSERT INTO `winners` (`winner_id`, `product_id`, `customer_id`, `winners_image`
 (3, 129, 2, '', 40.00, '2020-02-13', 'Pending'),
 (4, 128, 2, '', 525.00, '2020-02-13', 'Pending'),
 (5, 143, 9, '', 2.00, '2020-03-04', 'Pending'),
-(6, 148, 23, '', 15.00, '2020-03-05', 'Pending'),
-(7, 149, 8, '', 48050.00, '2024-09-21', 'Pending');
+(6, 148, 23, '', 15.00, '2020-03-05', 'Pending');
 
 --
 -- Indexes for dumped tables
@@ -464,7 +462,7 @@ ALTER TABLE `category`
 -- AUTO_INCREMENT for table `customer`
 --
 ALTER TABLE `customer`
-  MODIFY `customer_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
+  MODIFY `customer_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 
 --
 -- AUTO_INCREMENT for table `employee`
@@ -494,7 +492,7 @@ ALTER TABLE `product`
 -- AUTO_INCREMENT for table `winners`
 --
 ALTER TABLE `winners`
-  MODIFY `winner_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `winner_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
