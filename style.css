@@ -1075,7 +1075,7 @@ body {
 }
 /*-- home-2 slider-style ---*/
 .slider-text-info.style-2 .title1 {
-  color: #ff0202;
+  color: #E56717;
   display: inline-block;
   font-size: 120px;
   font-weight: 300;
@@ -1087,13 +1087,13 @@ body {
   font-weight: 500;
 }
 .slider-text-info.style-2 p {
-  color: #ffffff;
+  color: #E56717;
   font-size: 24px;
   line-height: 24px;
 }
 .slider-text-info.style-2 .slier-btn-1 a,.slider-text-info.style-1.slider-2-style .slier-btn-1 a {
-   border: 2px solid #fff;
-  color: #ffffff;
+   border: 2px solid #E56717;
+  color: #E56717;
 }
 .slider-text-info.style-2{
   padding: 220px 0;

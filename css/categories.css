@@ -1,0 +1,28 @@
+.category-box {
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+
+.category-box:hover {
+    transform: scale(1.05);
+}
+
+.category-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.category-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.ad-count {
+    font-size: 14px;
+    color: #777;
+}
