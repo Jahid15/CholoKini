@@ -39,10 +39,10 @@ $rspayment= mysqli_fetch_array($qsqlpayment);
 <div id="printableArea">
 <table id="datatable"  class="table table-striped table-bordered dataTable" cellspacing="0" width="100%" role="grid" aria-describedby="example_info" style="width: 100%;" >		
        <tr>
-		<th colspan="3"><center>Online Auction Hub</center></th>
+		<th colspan="3"><center>CholoKini Auction Hub</center></th>
 	   </tr>
 	   <tr>
-		<td colspan="3"><center>city light Mangalore</center></td>
+		<td colspan="3"><center>city light Dhaka</center></td>
 	   </tr>
 		<tr>
 			<td><b>Bill No.</b> <?php echo $rspayment['billing_id']; ?> </td>

@@ -153,7 +153,7 @@ if (file_exists("imgproduct/" . $rsproduct['product_image'])) {
 									<p><b>Actual product cost</b> : ৳<?php echo $rsproduct['product_cost']; ?></p>
 									<h4>Current Bid Amount : <br>৳<?php echo $rsproduct['ending_bid']; ?></h4>
 
-									<input type='hidden' name='max_bid_amt' id='max_bid_amt' value='<?php echo $rsproduct['ending_bid'] + 25; ?>'>
+									<input type='hidden' name='max_bid_amt' id='max_bid_amt' value='<?php echo $rsproduct['ending_bid'] + 5000; ?>'>
 
 									<?php /* <span class="new-price">$225.00</span>
                                                <span class="old-price">$250.00</span>

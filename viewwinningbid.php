@@ -361,7 +361,7 @@ $qsqlproduct = mysqli_query($con,$sqlproduct);
                 <div class="product-content">
                     <span class="product-shipping" style="color: green;"><b>Winner : <?php echo $rsproduct['customer_name']; ?></b></span>
                     <span class="product-shipping" style="color: green;"><b>From : <?php echo $rsproduct['city']; ?></b></span>
-                    <span class="product-shipping" style="color: green;"><b>Amount payable: : Rs. <?php echo $rsproduct['winning_bid']; ?></b></span>
+                    <span class="product-shipping" style="color: green;"><b>Amount payable: : BDT. <?php echo $rsproduct['winning_bid']; ?></b></span>
 
 
 <?php
